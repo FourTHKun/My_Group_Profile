@@ -55,7 +55,6 @@ h1 {
 
 /* การจัดช่องสมาชิก */
 .member-grid {
-     margin-top: 30px;
      display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
@@ -322,6 +321,7 @@ img {
     height: auto;
     display: block;
 }
+
 
 
 
