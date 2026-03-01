@@ -43,21 +43,21 @@ nav a {
    flex-grow: 1;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
+    align-items: stretch;  /* เปลี่ยนจาก center เป็น stretch */
     color: white;
-    width: 100%;
-    padding: 20px;
-}
 
 h1 { font-size: 3rem; margin-bottom: 20px; text-shadow: 2px 2px 10px rgba(0,0,0,0.5); }
 
 /* การจัดช่องสมาชิก */
 .member-grid {
-      width: 100%;
-    max-width: 1000px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+     margin-top: 30px;
+     display: grid;
+    grid-template-columns: repeat(4, 1fr);
     gap: 20px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .member-card {
@@ -334,9 +334,8 @@ img {
         height: 220px;
     }
 }
-html, body {
-    overflow-x: hidden;
-}
+
+
 
 
 
