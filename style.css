@@ -192,7 +192,7 @@ header {
 
 /* Theme backgrounds */
 .theme-rung {
-    background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+    background: linear-gradient(135deg, #27ae60 0%, #2980b9 100%);
 }
 
 .theme-sun {
@@ -200,11 +200,11 @@ header {
 }
 
 .theme-manao {
-    background: linear-gradient(135deg, #27ae60 0%, #2980b9 100%);
+    background: linear-gradient(135deg, #444443 0%, #000000 100% );
 }
 
 .theme-fourth {
-    background: linear-gradient(135deg, #8e44ad 0%, #c0392b 100%);
+    background: linear-gradient(135deg,#2c3e50 0%, #3498db 100%);
 }
 
 .section-container {
@@ -636,4 +636,5 @@ header {
         scroll-behavior: auto !important;
     }
 }
+
 
